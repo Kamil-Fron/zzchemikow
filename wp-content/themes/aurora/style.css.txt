@@ -1,0 +1,5 @@
+/*
+ Theme Name: Aurora
+ Template: nazwa-motywu-rodzica
+ Version: 1.0
+*/
