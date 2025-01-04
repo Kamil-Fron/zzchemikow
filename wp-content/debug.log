@@ -1,0 +1,156 @@
+[04-Jan-2025 09:15:17 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 09:24:30 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 09:57:04 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:13:19 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:16:37 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:16:49 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:17:52 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:18:08 UTC] PHP Deprecated:  Plik z Motyw nieposiadający sidebar.php uznawany jest za <strong>przestarzały</strong> od wersji 3.0.0! Nie istnieje żadna alternatywa. Proszę zawrzeć w motywie szablon sidebar.php. in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[04-Jan-2025 10:27:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 10:29:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:10:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:10:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:10:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:11:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:13:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:14:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:14:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:15:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
