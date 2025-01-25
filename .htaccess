@@ -1,4 +1,9 @@
-
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} \.(css|js|png|jpg|jpeg|gif|ico|woff|woff2|ttf|otf|eot|svg)$ [NC]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^(.*)$ $1 [L]
+</IfModule>
 # BEGIN WordPress
 # Dyrektywy zawarte między „BEGIN WordPress” oraz „END WordPress” są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
 # filtrów WordPressa. Zmiany dokonane bezpośrednio tutaj będą nadpisywane.

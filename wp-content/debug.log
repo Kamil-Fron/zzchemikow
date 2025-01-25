@@ -154,3 +154,25 @@ Stack trace:
 #10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
 #11 {main}
   thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:25:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "aurora_widgets_init()" not found or invalid function name in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\zzchemikow\wp-includes\widgets.php(1870): do_action('widgets_init')
+#3 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\zzchemikow\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\zzchemikow\wp-settings.php(704): do_action('init')
+#7 C:\xampp\htdocs\zzchemikow\wp-config.php(107): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\zzchemikow\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\zzchemikow\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\zzchemikow\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\zzchemikow\wp-includes\class-wp-hook.php on line 324
+[04-Jan-2025 11:39:19 UTC] Automatic updates starting...
+[04-Jan-2025 11:39:20 UTC] Automatic updates complete.
+[04-Jan-2025 12:03:17 UTC] PHP Warning:  wp_update_plugins(): Wystąpił nieoczekiwany błąd. Coś może być nie tak z WordPress.org lub konfiguracją twojego serwera. Jeśli problem będzie się powtarzał, spróbuj znaleźć pomoc na <a href="https://pl.wordpress.org/support/">forum pomocy technicznej</a>. (WordPress nie mógł stworzyć bezpiecznego połączenia z WordPress.org. Skontaktuj się z administratorem swojego serwera.) in C:\xampp\htdocs\zzchemikow\wp-includes\functions.php on line 6114
+[25-Jan-2025 22:58:58 UTC] Automatic updates starting...
+[25-Jan-2025 22:58:59 UTC]   Automatic plugin updates starting...
+[25-Jan-2025 22:58:59 UTC]   Automatic plugin updates complete.
+[25-Jan-2025 22:59:00 UTC] Automatic updates complete.
